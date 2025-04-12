@@ -4,3 +4,11 @@ const city = "New York";
 const image = "https://i.imgur.com/mV8PQxj.gif";
 
 // export all three variables as named exports
+export { username, city, image };
+// export a default object with all three variables
+const user = {
+  username,
+  city,
+  image,
+};
+export default user;
